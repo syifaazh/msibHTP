@@ -1,0 +1,110 @@
+<!--latihan 3 pada branch azhima-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEMBUAT FORM</title>
+</head>
+<body>
+    <table align="center">
+        <thead>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>Link</legend>
+                    <ul>
+                        <li><a href="latihan1.html" target="_blank">Home</a></li>
+                        <!--menambahkan target="_blank" supaya halamannya tidak tertimpa atau akan mucul pada page yang berbeda-->
+                        <li><a href="latihan2.html" target="_blank">Biodata</a></li>
+                        <li><a href="latihan3.html">Form</a></li>
+                    </ul>
+                </fieldset>
+            </td>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+    <!--membuat form-->
+    <form>
+        <table border="1" align="center" cellpadding="10" width="30%">
+            <thead>
+                <tr bgcolor="pink">
+                    <th colspan="2">Latihan Membuat Form</th>
+                </tr>
+            </thead>
+            <!--tfoot walaupun codingan ada ditengan tetapi tampilan akan tetap dibawah-->
+            <tfoot>
+                <tr>
+                    <th>
+                        <input type="submit">
+                    </th>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                <td width="25%">
+                    <!--inputan nama dengan menggunakan type text-->
+                    <label>Nama</label>
+                </td>
+                <td>
+                    <input type="text" name="Nama" value="" 
+                    placeholder="Silahkan masukkan nama" size="50" width="100">
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Email</label>
+                    </td>
+                    <td>
+                        <input type="Email" name="Email" value="" placeholder="Masukkan Email">
+                    </td>
+                </tr>
+                <!--inputan menggunakan type radio-->
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                        <input type="radio" name="Gender" value="P" checked> Perempuan &nbsp;&nbsp;
+                        <input type="radio" name="Gender" value="L">Laki-laki
+                    </td>
+                </tr>
+                <!--inputan menggunakan type checkbox-->
+                <tr>
+                    <td><label>Hobby</label></td>
+                    <td>
+                        <input type="checkbox" name="Hobby" value="Menulis">Menulis <br>
+                        <input type="checkbox" name="Hobby" value="Membaca">Membaca <br>
+                        <input type="checkbox" name="Hobby" value="Menggambar">Menggambar <br>
+                        <input type="checkbox" name="Hobby" value="Berenang">Berenang
+                    </td>
+                </tr>
+                <!--penggunaan option pada pilih pendidikan-->
+                <tr>
+                    <td><label>Pendidikan</label></td>
+                    <td>
+                        <select name="pendidikan">
+                            <option value="">-----Pilih Pendidikan----</option>
+                            <option value="SMA">SMA</option>
+                            <option value="D1">D1</option>
+                            <option value="D2">D2</option>
+                            <option value="D3">D3</option>
+                            <option value="S1/D4">S1/D4</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Alamat</label></td>
+                    <td>
+                        <textarea name="Alamat" cols="30" rows="5" placeholder="Tuliskan Alamat"></textarea>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+                </td>
+            </tr>
+        </tbody>
+</body>
+</html>
