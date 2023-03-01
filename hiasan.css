@@ -1,0 +1,64 @@
+/*ini selector tag*/
+p{
+    color: peachpuff;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+}
+body{
+    background-color: slategrey;
+    background-image: url('../img/foto7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Grouping css*/
+fieldset, legend{
+    border: 3px solid cornsilk;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px;
+    
+}
+legend{
+    padding: 10px;
+    background-color: rgb(165, 141, 141);
+    font-weight: bold;
+    font-size: 14pt;
+}
+table{
+    border: 10px;
+    margin: auto;
+}
+/*psudo elemen id*/
+div#menu {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+a.item:link, a.item:visited, a.item:active{
+    text-decoration: none;
+    font-size: 16pt;
+    color:darkred;
+    border: 2px solid wheat;
+    padding:5px;
+    background-color: antiquewhite;
+    /* display: block;
+    width: 20%; */
+}
+a.item:hover{
+    text-decoration: none;
+    font-size: 14pt;
+    color:aqua;
+    border: 2px solid rgb(211, 230, 169);
+    padding: 15px;
+    background-color: rgb(112, 102, 69);
+}
+/* #atas,#bawah {
+    text-align: right;
+} */
+li.menu{
+    color: bisque;
+}
+h1{
+    text-shadow: 3px 3px rgb(123, 82, 28);
+    color: bisque;
+}
